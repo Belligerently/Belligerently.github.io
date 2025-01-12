@@ -4,12 +4,13 @@
 @import "{{ site.theme }}";
 
 :root {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --link-color: #58a6ff;
-  --heading-color: #58a6ff;
-  --code-bg: #1e1e1e;
-  --prompt-color: #58a6ff;
+  --bg-color: #1a1a1a;
+  --text-color: #c0c0c0;
+  --link-color: #2f97e9;
+  --heading-color: #2f97e9;
+  --code-bg: #252525;
+  --prompt-color: #2f97e9;
+  --border-color: #333333;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #30363d;
+  border-bottom: 1px solid var(--border-color);
   padding: 2rem 0;
   background: transparent;
 }
@@ -51,12 +52,94 @@ header h1 {
   color: var(--link-color);
 }
 
-/* Rest of your existing styles... */
-
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* ... (keep all your previous styles) ... */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+/* Style for command prompt */
+.language-bash:before, .language-shell:before {
+  content: ">> ";
+  color: var(--prompt-color);
+  user-select: none;
+}
+
+/* Override default theme prompt if it exists */
+.command-prompt:before {
+  content: ">> ";
+  color: var(--prompt-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+code {
+  background: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+pre code {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+.btn:hover {
+  background: var(--link-color);
+  color: var(--bg-color);
+}
+
+/* Remove any theme-specific header decorations */
+header h1:before, h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+  content: none !important;
+}
+
+/* Override any default theme styles */
+body {
+  color: var(--text-color) !important;
+  background: var(--bg-color) !important;
+}
+
+.site-title {
+  color: var(--link-color) !important;
+}
+
+/* Make sure headers are correct color */
+header h1 a {
+  color: var(--link-color);
+}
