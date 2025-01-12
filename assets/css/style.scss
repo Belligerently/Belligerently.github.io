@@ -32,11 +32,26 @@ header h1 {
   line-height: 1.5;
   margin: 0;
   color: var(--link-color);
+  display: inline-block;
 }
 
-header h1:before {
-  content: none;
+.site-nav {
+  float: right;
+  margin-top: 1rem;
 }
+
+.site-nav .page-link {
+  color: var(--text-color);
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: var(--link-color);
+}
+
+/* Rest of your existing styles... */
 
 .container {
   max-width: 800px;
@@ -44,78 +59,4 @@ header h1:before {
   padding: 0 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--heading-color);
-  font-weight: 600;
-}
-
-/* Style for command prompt */
-.language-bash:before, .language-shell:before {
-  content: ">> ";
-  color: var(--prompt-color);
-  user-select: none;
-}
-
-/* Override default theme prompt if it exists */
-.command-prompt:before {
-  content: ">> ";
-  color: var(--prompt-color);
-}
-
-a {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: opacity 0.2s ease;
-}
-
-a:hover {
-  opacity: 0.8;
-}
-
-code {
-  background: var(--code-bg);
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-}
-
-pre code {
-  display: block;
-  padding: 1em;
-  overflow-x: auto;
-}
-
-pre {
-  background: var(--code-bg);
-  padding: 1em;
-  border-radius: 4px;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #30363d;
-  margin: 2rem 0;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--link-color);
-  border-radius: 4px;
-  margin: 0.5rem 0;
-}
-
-.btn:hover {
-  background: var(--link-color);
-  color: var(--bg-color);
-}
-
-/* Remove any theme-specific header decorations */
-header h1:before, h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
-  content: none !important;
-}
-
-/* Ensure site title is also blue in navigation */
-.site-title {
-  color: var(--link-color) !important;
-}
+/* ... (keep all your previous styles) ... */
