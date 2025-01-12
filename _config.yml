@@ -18,7 +18,14 @@ plugins:
 # Theme customization
 show_downloads: false
 
-# Custom settings
+# Navigation
 header_pages:
-  - about.md
   - docs.md
+  - guide.md
+  - about.md
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
