@@ -9,6 +9,7 @@
   --link-color: #58a6ff;
   --heading-color: #58a6ff;
   --code-bg: #1e1e1e;
+  --prompt-color: #58a6ff;
 }
 
 body {
@@ -26,9 +27,39 @@ header {
   background: transparent;
 }
 
+header h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--link-color);
+}
+
+header h1:before {
+  content: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   font-weight: 600;
+}
+
+/* Style for command prompt */
+.language-bash:before, .language-shell:before {
+  content: ">> ";
+  color: var(--prompt-color);
+  user-select: none;
+}
+
+/* Override default theme prompt if it exists */
+.command-prompt:before {
+  content: ">> ";
+  color: var(--prompt-color);
 }
 
 a {
@@ -39,12 +70,6 @@ a {
 
 a:hover {
   opacity: 0.8;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 code {
@@ -58,6 +83,12 @@ pre code {
   display: block;
   padding: 1em;
   overflow-x: auto;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 1em;
+  border-radius: 4px;
 }
 
 hr {
@@ -77,4 +108,14 @@ hr {
 .btn:hover {
   background: var(--link-color);
   color: var(--bg-color);
+}
+
+/* Remove any theme-specific header decorations */
+header h1:before, h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+  content: none !important;
+}
+
+/* Ensure site title is also blue in navigation */
+.site-title {
+  color: var(--link-color) !important;
 }
