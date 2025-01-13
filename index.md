@@ -3,48 +3,39 @@ layout: default
 title: Home
 ---
 
-# Your Project Name
+# SpecMatrix
 
-A brief, compelling description of your project or site. Make it clear and impactful.
+SpecMatrix is an iOS application designed
+to provide an innovative solution for users
+to monitor their system components and
+specs
 
-## Key Features
+## Features included
 
-- **Feature One**: Description of your first key feature
-- **Feature Two**: Description of your second key feature
-- **Feature Three**: Description of your third key feature
+- Battery monitoring
 
-## Getting Started
+- Viewing basic system info
 
-```bash
-# Quick installation command or example
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-```
+- Viewing GPU specs
+
+- Viewing CPU specs
+
+- Monitoring RAM Usage and stats in real time
+
+- Viewing storage info
+
+- Real time network speed on cellular and Wi-Fi
+
+- All display specs
+
+- All camera specs and features
 
 ## Documentation
 
 Check out our [documentation](/docs) for detailed information about:
 - Installation
-- Configuration
-- Usage examples
-- API reference
-
-## Community
-
-- [GitHub Discussions](https://github.com/yourusername/yourproject/discussions)
-- [Discord Server](https://discord.gg/yourserver)
-- [Twitter](https://twitter.com/yourusername)
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-```bash
-# Development setup
-npm install
-npm run dev
-```
+- How to contribute
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Belligerently/SpecMatrix/blob/main/LICENSE) file for details.
