@@ -5,7 +5,7 @@ title: Guide
 
 # User Guide
 
-Welcome to the user guide. This section will help you get started and explain the basics of SpecMatrix!
+Welcome to the user guide. This section will help you get started and install SpecMatrix
 
 ## Install
 
