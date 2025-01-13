@@ -20,7 +20,7 @@ show_downloads: false
 
 # Navigation
 header_pages:
-  - readme.md
+  - README.md
   - docs.md
   - guide.md
   - about.md
