@@ -23,6 +23,7 @@ header_pages:
   - docs.md
   - guide.md
   - about.md
+  - download.md
 
 # Collections
 collections:
