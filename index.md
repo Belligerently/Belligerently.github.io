@@ -30,10 +30,12 @@ specs
 
 - All camera specs and features
 
-## Documentation
+## Guide
 
 Check out our [guide](/guide) for detailed information about:
 - Installation
+
+## Documentation
 
 ## License
 
