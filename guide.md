@@ -11,7 +11,7 @@ Welcome to the user guide. This section will help you get started and install Sp
 
 ### For Devs
 
-**1.** `git clone github.com/belligerently/SpecMatrix.git`
+**1.** `git clone https://github.com/belligerently/SpecMatrix`
 
 **2.** Open the project in [Xcode](https://developer.apple.com/xcode/) or [VS Code](https://code.visualstudio.com/) with the [Swift extension](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) and [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) extension for the .md files
 
