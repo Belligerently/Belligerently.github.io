@@ -34,7 +34,6 @@ specs
 
 Check out our [guide](/guide) for detailed information about:
 - Installation
-- How to contribute
 
 ## License
 
