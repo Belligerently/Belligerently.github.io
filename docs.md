@@ -5,7 +5,13 @@ title: Documentation
 
 # Documentation
 
-Welcome to the documentation section. Here you'll find detailed information about:
+Welcome to the documentation section. Here you'll find detailed information about SpecMatrix, such as
+- WHat is SpecMatrix
+- Benefits of SpecMatrix
+- Drawbacks of SpecMatrix
+- How to use SpecMatrix
+- Where to get SpecMatrix
+- Why?
 
 ## What is SpecMatrix?
 SpecMatrix is an app made by Zachary Aflalo with the goal of allowing you to monitor your system on iOS without jailbreaking. It has many features such as real time RAM Usage stats, WiFi Speeds in real time, and much more!
