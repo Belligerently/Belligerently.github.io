@@ -1,6 +1,4 @@
 ---
-# _pages/docs.md
----
 permalink: /docs/
 title: "Documentation"
 toc: true
