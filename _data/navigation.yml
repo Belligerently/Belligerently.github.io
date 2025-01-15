@@ -1,0 +1,25 @@
+# Main navigation links
+main:
+  - title: "Features"
+    url: /
+  - title: "Documentation"
+    url: /docs/
+  - title: "Guide"
+    url: /guide/
+  - title: "Download"
+    url: /download/
+  - title: "About"
+    url: /about/
+
+# Documentation navigation sidebar
+docs:
+  - title: Getting Started
+    children:
+      - title: "What is SpecMatrix?"
+        url: /docs/#what-is-specmatrix
+      - title: "Features"
+        url: /docs/#what-makes-specmatrix-special
+      - title: "Benefits"
+        url: /docs/#benefits-of-specmatrix
+      - title: "Limitations"
+        url: /docs/#drawbacks-of-specmatrix
