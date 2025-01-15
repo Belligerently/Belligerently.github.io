@@ -4,8 +4,6 @@ title: "Documentation"
 toc: true
 ---
 
-# Documentation
-
 Welcome to the documentation section. Here you'll find detailed information about SpecMatrix.
 
 ## What is SpecMatrix?
