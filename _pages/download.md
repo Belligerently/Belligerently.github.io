@@ -1,10 +1,12 @@
 ---
 permalink: /download/
-title: "Download"
+title: "Download SpecMatrix"
 ---
 
-Choose your preferred method to install SpecMatrix:
+<div id="release-info"></div>
 
-- [Download on App Store](https://apps.apple.com/us/app/specmatrix/id6740110428)
-- [Download IPA](https://github.com/Belligerently/SpecMatrix/releases/download/v1/SpecMatrix.ipa)
-- [Download through TestFlight]()
+{% raw %}
+<script type="text/javascript">
+  // The ReleaseInfo component will be mounted here by the app
+</script>
+{% endraw %}
