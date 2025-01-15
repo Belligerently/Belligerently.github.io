@@ -3,8 +3,6 @@ permalink: /download/
 title: "Download"
 ---
 
-# Download SpecMatrix
-
 Choose your preferred method to install SpecMatrix:
 
 - [Download on App Store](https://apps.apple.com/us/app/specmatrix/id6740110428)
