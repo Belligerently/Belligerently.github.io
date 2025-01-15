@@ -1,7 +1,7 @@
 ---
 title: "Download SpecMatrix"
 permalink: /download/
-layout: dual
+layout: single
 ---
 
 Choose your preferred method to install SpecMatrix:
