@@ -2,31 +2,106 @@
 title: SpecMatrix
 email: spec.matrix.app@gmail.com
 description: >- 
-  Your site description here
-baseurl: ""
+  SpecMatrix is an iOS application designed to provide an innovative solution for users
+  to monitor their system components and specs
 url: ""
 github_username: Belligerently
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "dark" # options: air, contrast, dark, dirt, mint, sunrise
+locale: "en-US"
+title_separator: "|"
+subtitle: "iOS System Monitor"
+name: "Zachary Aflalo"
+repository: "Belligerently/SpecMatrix"
+
+# Site Author
+author:
+  name: "Zachary Aflalo"
+  avatar: "/assets/images/placeholder-avatar.png"  # You'll need to add an avatar image
+  bio: "iOS Developer"
+  location: "United States"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Belligerently"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:spec.matrix.app@gmail.com"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "#"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Belligerently"
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
 plugins:
-  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-seo-tag
-
-# Theme customization
-show_downloads: false
-
-# Navigation
-header_pages:
-  - docs.md
-  - guide.md
-  - about.md
-  - download.md
+  - jekyll-include-cache
 
 # Collections
 collections:
   docs:
     output: true
     permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+# Navigation
+navigation:
+  main:
+    - title: "Documentation"
+      url: /docs/
+    - title: "Guide"
+      url: /guide/
+    - title: "About"
+      url: /about/
+    - title: "Download"
+      url: /download/
