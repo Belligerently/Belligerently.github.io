@@ -22,7 +22,7 @@ repository: "Belligerently/SpecMatrix"
 # Site Author
 author:
   name: "Zachary Aflalo"
-  avatar: "/assets/images/placeholder-avatar.png"  # You'll need to add an avatar image
+  avatar: "/assets/images/placeholder-avatar.png"
   bio: "iOS Developer"
   location: "United States"
   links:
@@ -46,6 +46,7 @@ footer:
 # Reading Files
 include:
   - _pages
+  - _data
 
 # Plugins
 plugins:
@@ -80,7 +81,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false # Changed to false for cleaner navigation
+      sidebar:
+        nav: "docs" # This will show the docs navigation on documentation pages
   # _docs
   - scope:
       path: ""
@@ -94,14 +97,5 @@ defaults:
       sidebar:
         nav: "docs"
 
-# Navigation
-navigation:
-  main:
-    - title: "Documentation"
-      url: /docs/
-    - title: "Guide"
-      url: /guide/
-    - title: "About"
-      url: /about/
-    - title: "Download"
-      url: /download/
+# Masthead (Navigation) settings
+masthead_title: "SpecMatrix"
