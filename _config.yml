@@ -43,16 +43,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Belligerently"
 
-# Include files and directories
+# Reading Files
 include:
   - _pages
   - _data
-  - assets/js/components
-
-# Scripts to include in head
-head_scripts:
-  - https://unpkg.com/react@18/umd/react.production.min.js
-  - https://unpkg.com/react-dom@18/umd/react-dom.production.min.js
 
 # Plugins
 plugins:
@@ -87,9 +81,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: false # Changed to false for cleaner navigation
       sidebar:
-        nav: "docs"
+        nav: "docs" # This will show the docs navigation on documentation pages
   # _docs
   - scope:
       path: ""
