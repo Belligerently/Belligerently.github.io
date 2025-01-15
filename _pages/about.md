@@ -3,8 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-# About
-
 SpecMatrix is an iOS application designed to provide an innovative solution for users to monitor their iPhone. It offers a comprehensive suite of tools to monitor and analyze your device's performance, network, and hardware capabilities, all in one intuitive interface. By providing real-time insights and detailed metrics, SpecMatrix empowers users to better understand and manage their devices.
 
 ## My Mission
