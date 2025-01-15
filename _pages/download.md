@@ -1,6 +1,4 @@
 ---
-# _pages/download.md
----
 permalink: /download/
 title: "Download"
 ---
