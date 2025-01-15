@@ -4,7 +4,8 @@ email: spec.matrix.app@gmail.com
 description: >- 
   SpecMatrix is an iOS application designed to provide an innovative solution for users
   to monitor their system components and specs
-url: ""
+url: "https://belligerently.github.io"
+baseurl: "/SpecMatrix"
 github_username: Belligerently
 
 # Build settings
@@ -18,6 +19,11 @@ title_separator: "|"
 subtitle: "iOS System Monitor"
 name: "Zachary Aflalo"
 repository: "Belligerently/SpecMatrix"
+
+# GitHub settings
+github: [metadata]
+repository: Belligerently/SpecMatrix
+github_repository: Belligerently/SpecMatrix
 
 # Site Author
 author:
@@ -61,6 +67,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-github-metadata
+  - jekyll-remote-theme
 
 # Collections
 collections:
@@ -105,3 +113,14 @@ defaults:
 
 # Masthead (Navigation) settings
 masthead_title: "SpecMatrix"
+
+# Additional Jekyll settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
