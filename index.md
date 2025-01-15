@@ -1,42 +1,56 @@
 ---
-layout: default
-title: Home
+layout: splash
+title: "SpecMatrix"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash-bg.jpg
+  actions:
+    - label: "Download Now"
+      url: "/download/"
+excerpt: "A powerful iOS system monitoring application that provides real-time insights into your device's performance."
+
+feature_row:
+  - title: "System Monitoring"
+    excerpt: "Monitor battery, RAM usage, and system information in real-time with detailed metrics and analytics."
+    url: "/docs/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - title: "Hardware Specs"
+    excerpt: "View comprehensive details about your GPU, CPU, display, and camera specifications."
+    url: "/docs/"
+    btn_label: "View Details"
+    btn_class: "btn--primary"
+  - title: "Network Analysis"
+    excerpt: "Track real-time network speeds for both cellular and Wi-Fi connections."
+    url: "/docs/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-# SpecMatrix
+{% include feature_row %}
 
-SpecMatrix is an iOS application designed
-to provide an innovative solution for users
-to monitor their system components and
-specs
+## Features
 
-## Features included
+SpecMatrix provides comprehensive system monitoring capabilities including:
 
-- Battery monitoring
+✓ Battery monitoring  
+✓ Real-time RAM usage statistics  
+✓ Detailed GPU specifications  
+✓ CPU performance metrics  
+✓ Storage information  
+✓ Network speed monitoring  
+✓ Display specifications  
+✓ Camera features and specs  
 
-- Viewing basic system info
+## Getting Started
 
-- Viewing GPU specs
+Ready to take control of your device monitoring? Check out our [installation guide](/guide/) to get started with SpecMatrix.
 
-- Viewing CPU specs
+## Open Source
 
-- Monitoring RAM Usage and stats in real time
-
-- Viewing storage info
-
-- Real time network speed on cellular and Wi-Fi
-
-- All display specs
-
-- All camera specs and features
-
-## Guide
-
-Check out our [guide](/guide) for detailed information about:
-- Installation
+SpecMatrix is open source under the MIT License. View the complete [source code on GitHub](https://github.com/Belligerently/SpecMatrix).
 
 ## Documentation
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Belligerently/SpecMatrix/blob/main/LICENSE) file for details.
+Need more information? Our comprehensive [documentation](/docs/) covers everything from basic setup to advanced features.
