@@ -4,8 +4,6 @@ title: "User Guide"
 toc: true
 ---
 
-# User Guide
-
 Welcome to the user guide. This section will help you get started and install SpecMatrix.
 
 ## Installation Methods
@@ -36,6 +34,6 @@ Choose your installation method:
 
 2. Download the .IPA file from:
    - [GitHub Releases](https://github.com/Belligerently/SpecMatrix/releases)
-   - Downloads section of this site
+   - [Downloads](https://specmatrix.me/download/)
 
 3. Upload and install through your chosen sideloading service
