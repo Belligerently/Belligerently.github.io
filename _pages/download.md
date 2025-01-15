@@ -1,9 +1,12 @@
 ---
-layout: download
-title: "Download SpecMatrix"
 permalink: /download/
+title: "Download SpecMatrix"
 ---
 
-# Download SpecMatrix
+<div id="release-info"></div>
 
-Choose your preferred method to install SpecMatrix below:
+{% raw %}
+<script type="text/javascript">
+  // The ReleaseInfo component will be mounted here by the app
+</script>
+{% endraw %}
