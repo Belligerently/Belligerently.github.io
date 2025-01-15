@@ -1,21 +1,13 @@
----
-permalink: /download/
-title: "Download SpecMatrix"
----
+import React from 'react';
+import ReleaseInfo from './ReleaseInfo';
 
-<div id="root">
-  <div id="release-info"></div>
-</div>
+const DownloadPage = () => {
+  return (
+    <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <h1 className="text-4xl font-bold mb-8">Download SpecMatrix</h1>
+      <ReleaseInfo />
+    </div>
+  );
+};
 
-{% raw %}
-<script type="text/javascript">
-  import { createRoot } from 'react-dom/client';
-  import { ReleaseInfo } from './ReleaseInfo';
-  
-  document.addEventListener('DOMContentLoaded', () => {
-    const container = document.getElementById('release-info');
-    const root = createRoot(container);
-    root.render(<ReleaseInfo />);
-  });
-</script>
-{% endraw %}
+export default DownloadPage;
